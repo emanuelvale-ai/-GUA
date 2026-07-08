@@ -44,8 +44,8 @@ p {
 /* Imagens do conteúdo */
 .imagem-conteudo {
     display: block;
-    width: 45%;
-    max-width: 350px;
+    width: 60%;
+    max-width: 500px;
     height: auto;
     margin: 25px auto;
     border-radius: 12px;
