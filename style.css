@@ -34,11 +34,8 @@ p {
 /* Banner do topo */
 .banner {
     display: block;
-    width: 90%;
-    max-width: 1100px;
-    height: 150px;
-    object-fit: cover;
-    object-position: center;
+    width: 70%;
+    height: auto;
     margin: 20px auto;
     border-radius: 10px;
 }
