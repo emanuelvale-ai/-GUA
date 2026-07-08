@@ -34,13 +34,13 @@ p {
 /* Banner do topo */
 .banner {
     display: block;
-    width: 100%;
-    max-width: 1300px;
-    height: 280px;
-    object-fit: cover;
+    width: 90%;
+    max-width: 1200px;
+    height: auto;
     margin: 20px auto;
-    border-radius: 12px;
+    border-radius: 10px;
 }
+
 
 /* Imagens do conteúdo */
 .imagem-conteudo {
