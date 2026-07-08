@@ -1,43 +1,65 @@
-body{
+/* Configurações gerais */
+body {
     font-family: Arial, Helvetica, sans-serif;
-    background:#f2f8ff;
-    margin:0;
-    color:#333;
+    background-color: #eaf6ff;
+    margin: 0;
+    padding: 0;
+    color: #333;
 }
 
-.titulo-centralizado{
-    background:#1E88E5;
-    color:white;
-    text-align:center;
-    padding:20px;
-    margin:0;
+/* Título principal */
+h1 {
+    background: linear-gradient(to right, #1e90ff, #4facfe);
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin: 0;
 }
 
-h2,h3{
-    color:#1565C0;
-    text-align:center;
-    margin-top:40px;
+/* Títulos */
+h2, h3 {
+    text-align: center;
+    color: #1e5fbf;
 }
 
-p{
-    width:90%;
-    max-width:900px;
-    margin:20px auto;
-    line-height:1.8;
-    text-align:justify;
+/* Texto */
+p {
+    width: 85%;
+    margin: 15px auto;
+    text-align: justify;
+    line-height: 1.8;
+    font-size: 18px;
 }
 
-.banner{
-    width:100%;
-    max-height:350px;
-    object-fit:cover;
+/* Banner do topo */
+.banner {
+    display: block;
+    width: 100%;
+    max-width: 1300px;
+    height: 280px;
+    object-fit: cover;
+    margin: 20px auto;
+    border-radius: 12px;
 }
 
-img{
-    display:block;
-    width:500px;
-    max-width:90%;
-    margin:20px auto;
-    border-radius:12px;
-    box-shadow:0 0 12px rgba(0,0,0,.2);
+/* Imagens do conteúdo */
+.imagem-conteudo {
+    display: block;
+    width: 45%;
+    max-width: 350px;
+    height: auto;
+    margin: 25px auto;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+/* Caixas de conteúdo */
+section {
+    width: 90%;
+    max-width: 1100px;
+    margin: 30px auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.15);
 }
