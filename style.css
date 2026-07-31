@@ -87,16 +87,20 @@ li a:hover {
 }
 .nomes-integrantes {
     width: 100%;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: 30px auto;
 }
 
 .nomes-integrantes p {
-    text-align: center;
+    width: 100%;
+    text-align: center !important;
     margin: 12px 0;
 }
 
 .nomes-integrantes .turma {
-    margin-top: 20px;
+    text-align: center !important;
     font-weight: bold;
+    margin-top: 20px;
 }
