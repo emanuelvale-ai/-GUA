@@ -104,3 +104,22 @@ li a:hover {
     font-weight: bold;
     margin-top: 20px;
 }
+.botoes {
+    text-align: center;
+    margin: 25px 0;
+}
+
+.botoes a {
+    display: inline-block;
+    padding: 12px 20px;
+    margin: 5px;
+    background-color: #168bd1;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.botoes a:hover {
+    background-color: #0d6fa8;
+}
