@@ -143,27 +143,28 @@ li a:hover {
     height: 58px;
 
     border-radius: 50%;
-    background: rgba(255,0,0,0.15);
+    background: rgba(255,0,0,0.2);
     border: 2px solid red;
+
+    cursor: pointer;
 }
 
-    z-index: 999;
+/* Hidrata */
+.hidrata {
+    right: 5%;
+    top: 30%;
 }
 
-.botao-hidrata{
-    right: 4.8%;
-    top: 34%;   /* desce um pouco mais */
+/* Protege */
+.protege {
+    right: 5%;
+    top: 49%;
 }
 
-
-.botao-protege{
-    right: 4.8%;
-    top: 49%;   /* perfeito, não mexa */
-}
-
-.botao-equilibra{
-    right: 4.8%;
-    top: 64%;   /* perfeito, não mexa */
+/* Equilibra */
+.equilibra {
+    right: 5%;
+    top: 64%;
 }
 .botao-banner:hover {
     transform: scale(1.1);
