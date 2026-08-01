@@ -123,3 +123,49 @@ li a:hover {
 .botoes a:hover {
     background-color: #0d6fa8;
 }
+.banner-container {
+    position: relative;
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.banner-container .banner {
+    width: 100%;
+    display: block;
+    margin: 0;
+}
+
+.banner-container a {
+    position: absolute;
+    display: block;
+    cursor: pointer;
+}
+
+/* Área do HIDRATA */
+.area-hidrata {
+    left: 20%;
+    top: 55%;
+    width: 25%;
+    height: 30%;
+}
+
+/* Área do PROTEGE */
+.area-protege {
+    left: 48%;
+    top: 55%;
+    width: 25%;
+    height: 30%;
+}
+
+/* Área do EQUILIBRA */
+.area-equilibra {
+    left: 72%;
+    top: 55%;
+    width: 25%;
+    height: 30%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
