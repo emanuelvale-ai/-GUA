@@ -152,10 +152,9 @@ li a:hover {
 
 .botao-hidrata{
     right: 4.8%;
-    top: 31%;
-    width: 65px;
-    height: 65px;
+    top: 34%;   /* desce um pouco mais */
 }
+
 
 .botao-protege{
     right: 4.8%;
