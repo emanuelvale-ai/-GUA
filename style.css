@@ -148,16 +148,19 @@ li a:hover {
     z-index: 999;
 }
 
-.hidrata {
-    top: 47%;
+.botao-hidrata{
+    right: 4.8%;
+    top: 26%;
 }
 
-.protege {
-    top: 57%;
+.botao-protege{
+    right: 4.8%;
+    top: 45%;
 }
 
-.equilibra {
-    top: 67%;
+.botao-equilibra{
+    right: 4.8%;
+    top: 64%;
 }
 
 .botao-banner:hover {
