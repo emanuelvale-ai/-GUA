@@ -150,19 +150,18 @@ li a:hover {
 
 .botao-hidrata{
     right: 4.8%;
-    top: 26%;
+    top: 29%;   /* desce um pouco mais */
 }
 
 .botao-protege{
     right: 4.8%;
-    top: 45%;
+    top: 47%;   /* desce um pouquinho */
 }
 
 .botao-equilibra{
     right: 4.8%;
-    top: 64%;
+    top: 64%;   /* permanece igual */
 }
-
 .botao-banner:hover {
     transform: scale(1.1);
 }
