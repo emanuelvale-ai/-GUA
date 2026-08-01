@@ -142,28 +142,58 @@ li a:hover {
     cursor: pointer;
 }
 
-/* Botão HIDRATA */
-.area-hidrata {
-    left: 87%;
-    top: 25%;
-    width: 8%;
-    height: 15%;
+.banner-container {
+    position: relative;
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
 }
 
-/* Botão PROTEGE */
-.area-protege {
-    left: 87%;
+.banner-container .banner {
+    width: 100%;
+    display: block;
+    margin: 0;
+}
+
+.botao-banner {
+    position: absolute;
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #1756a9;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    padding: 8px 5px;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    border: 2px solid #1756a9;
+}
+
+/* HIDRATA */
+.hidrata {
+    right: 5%;
+    top: 24%;
+}
+
+/* PROTEGE */
+.protege {
+    right: 5%;
     top: 43%;
-    width: 8%;
-    height: 15%;
 }
 
-/* Botão EQUILIBRA */
-.area-equilibra {
-    left: 87%;
+/* EQUILIBRA */
+.equilibra {
+    right: 5%;
     top: 62%;
-    width: 8%;
-    height: 15%;
+}
+
+.botao-banner:hover {
+    transform: scale(1.08);
 }
 
 html {
