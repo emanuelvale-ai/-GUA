@@ -130,42 +130,43 @@ li a:hover {
     margin: 20px auto;
 }
 
-.banner-container .banner {
+.banner {
     width: 100%;
     display: block;
-    margin: 0;
 }
 
 .botao-banner {
     position: absolute;
-    z-index: 10;
-
+    right: 6.2%;      /* distância da borda direita */
     width: 58px;
     height: 58px;
 
     border-radius: 50%;
-    background: transparent;
-    border: none;
+    background: rgba(255,0,0,0.15); /* deixe assim apenas para testar */
+    border: 2px solid red;          /* deixe assim apenas para testar */
 
-    font-size: 0;
+    z-index: 999;
 }
 
 .botao-hidrata {
-    top: 50%;
+    top: 47%;
 }
 
 .botao-protege {
-    top: 60%;
+    top: 57%;
 }
 
 .botao-equilibra {
-    top: 70%;
+    top: 67%;
 }
 
 .botao-banner:hover {
     transform: scale(1.1);
 }
 
+html {
+    scroll-behavior: smooth;
+}
 html {
     scroll-behavior: smooth;
 }
