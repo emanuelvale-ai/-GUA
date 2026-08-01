@@ -150,22 +150,16 @@ li a:hover {
     font-size: 0;
 }
 
-/* HIDRATA */
-.hidrata {
-    right: 4.5%;
-    top: 24%;
+.botao-hidrata {
+    top: 50%;
 }
 
-/* PROTEGE */
-.protege {
-    right: 4.5%;
-    top: 43%;
+.botao-protege {
+    top: 60%;
 }
 
-/* EQUILIBRA */
-.equilibra {
-    right: 4.5%;
-    top: 62%;
+.botao-equilibra {
+    top: 70%;
 }
 
 .botao-banner:hover {
