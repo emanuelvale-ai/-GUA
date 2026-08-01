@@ -123,28 +123,53 @@ li a:hover {
 .botoes a:hover {
     background-color: #0d6fa8;
 }
-/* Botão HIDRATA */
-.area-hidrata {
-    left: 87%;
-    top: 25%;
-    width: 8%;
-    height: 15%;
+.banner-container {
+    position: relative;
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
 }
 
-/* Botão PROTEGE */
-.area-protege {
-    left: 87%;
+.banner-container .banner {
+    width: 100%;
+    display: block;
+    margin: 0;
+}
+
+.botao-banner {
+    position: absolute;
+    z-index: 10;
+
+    width: 58px;
+    height: 58px;
+
+    border-radius: 50%;
+    background: transparent;
+    border: none;
+
+    font-size: 0;
+}
+
+/* HIDRATA */
+.hidrata {
+    right: 4.5%;
+    top: 24%;
+}
+
+/* PROTEGE */
+.protege {
+    right: 4.5%;
     top: 43%;
-    width: 8%;
-    height: 15%;
 }
 
-/* Botão EQUILIBRA */
-.area-equilibra {
-    left: 87%;
+/* EQUILIBRA */
+.equilibra {
+    right: 4.5%;
     top: 62%;
-    width: 8%;
-    height: 15%;
+}
+
+.botao-banner:hover {
+    transform: scale(1.1);
 }
 
 html {
