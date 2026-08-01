@@ -137,30 +137,34 @@ li a:hover {
 
 .botao-banner {
     position: absolute;
-    right: 6.2%;      /* distância da borda direita */
+    z-index: 999;
+
     width: 58px;
     height: 58px;
 
     border-radius: 50%;
-    background: rgba(255,0,0,0.15); /* deixe assim apenas para testar */
-    border: 2px solid red;          /* deixe assim apenas para testar */
+    background: transparent;
+    border: none;
+
+    cursor: pointer;
+}
 
     z-index: 999;
 }
 
 .botao-hidrata{
     right: 4.8%;
-    top: 32%;   /* desceu mais */
+    top: 34%;   /* desce um pouco mais */
 }
 
 .botao-protege{
     right: 4.8%;
-    top: 49%;   /* desceu um pouco mais */
+    top: 49%;   /* perfeito, não mexa */
 }
 
 .botao-equilibra{
     right: 4.8%;
-    top: 64%;   /* permanece igual */
+    top: 64%;   /* perfeito, não mexa */
 }
 .botao-banner:hover {
     transform: scale(1.1);
