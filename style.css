@@ -143,10 +143,8 @@ li a:hover {
     height: 58px;
 
     border-radius: 50%;
-    background: transparent;
-    border: none;
-
-    cursor: pointer;
+    background: rgba(255,0,0,0.15);
+    border: 2px solid red;
 }
 
     z-index: 999;
