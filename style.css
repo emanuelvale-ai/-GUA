@@ -142,28 +142,28 @@ li a:hover {
     cursor: pointer;
 }
 
-/* Área do HIDRATA */
+/* Botão HIDRATA */
 .area-hidrata {
-    left: 20%;
-    top: 55%;
-    width: 25%;
-    height: 30%;
+    left: 87%;
+    top: 25%;
+    width: 8%;
+    height: 15%;
 }
 
-/* Área do PROTEGE */
+/* Botão PROTEGE */
 .area-protege {
-    left: 48%;
-    top: 55%;
-    width: 25%;
-    height: 30%;
+    left: 87%;
+    top: 43%;
+    width: 8%;
+    height: 15%;
 }
 
-/* Área do EQUILIBRA */
+/* Botão EQUILIBRA */
 .area-equilibra {
-    left: 72%;
-    top: 55%;
-    width: 25%;
-    height: 30%;
+    left: 87%;
+    top: 62%;
+    width: 8%;
+    height: 15%;
 }
 
 html {
