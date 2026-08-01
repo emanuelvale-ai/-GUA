@@ -148,15 +148,15 @@ li a:hover {
     z-index: 999;
 }
 
-.botao-hidrata {
+.hidrata {
     top: 47%;
 }
 
-.botao-protege {
+.protege {
     top: 57%;
 }
 
-.botao-equilibra {
+.equilibra {
     top: 67%;
 }
 
