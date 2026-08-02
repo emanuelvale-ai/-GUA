@@ -149,22 +149,19 @@ li a:hover {
     cursor: pointer;
 }
 
-/* Hidrata */
-.hidrata {
-    right: 5%;
-    top: 30%;
+.botao-hidrata{
+    right:5%;
+    top:34%;
 }
 
-/* Protege */
-.protege {
-    right: 5%;
-    top: 49%;
+.botao-protege{
+    right:5%;
+    top:49%;
 }
 
-/* Equilibra */
-.equilibra {
-    right: 5%;
-    top: 64%;
+.botao-equilibra{
+    right:5%;
+    top:64%;
 }
 .botao-banner:hover {
     transform: scale(1.1);
