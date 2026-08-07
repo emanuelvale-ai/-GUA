@@ -51,6 +51,19 @@ p {
     border-radius: 12px;
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
+/*imagem porcentagem*/
+.imagem-porcentagem {
+    display: flex;
+    float: right;
+    width: 70%;
+    max-width: 500px;
+    height: auto;
+    margin: 25px auto;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+
+
+}
 
 /* Caixas de conteúdo */
 section {
