@@ -53,8 +53,7 @@ p {
 }
 /*imagem porcentagem*/
 .imagem-porcentagem {
-    display: flex;
-    float: left;
+    box-align: right;
     width: 70%;
     max-width: 500px;
     height: auto;
