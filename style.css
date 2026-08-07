@@ -54,7 +54,7 @@ p {
 /*imagem porcentagem*/
 .imagem-porcentagem {
     display: flex;
-    float: right;
+    float: left;
     width: 70%;
     max-width: 500px;
     height: auto;
