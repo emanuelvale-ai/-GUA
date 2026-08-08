@@ -87,6 +87,11 @@ section {
 .lista-importancia li {
     text-align: left;
 }
+
+.lista-importancia li strong {
+    color: #1e5fbf;
+}
+
 /* Lista distribuição*/
 .lista-distribuição {
     width: 90%;
@@ -100,6 +105,11 @@ section {
 .lista-distribuição li {
     text-align: left;
 }
+
+.lista-distribuição li strong {
+    color: #1e5fbf;
+}
+
 /* Referências */
 ul {
     width: 80%;
