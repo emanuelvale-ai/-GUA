@@ -74,7 +74,20 @@ section {
     border-radius: 12px;
     box-shadow: 0 0 8px rgba(0,0,0,0.15);
 }
-/* Lista distribuição e importancia*/
+/* Lista importancia*/
+.lista-distribuição {
+    width: 90%;
+    margin: 20px 0 20px 80px;
+    padding-left: 30px;
+    text-align: left;
+    list-style-position: outside;
+    line-height: 1.8;
+}
+
+.lista-distribuição li {
+    text-align: left;
+}
+/* Lista distribuição*/
 .lista-distribuição {
     width: 90%;
     margin: 20px 0 20px 60px;
