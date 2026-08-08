@@ -75,7 +75,7 @@ section {
     box-shadow: 0 0 8px rgba(0,0,0,0.15);
 }
 /* Lista importancia*/
-.lista-distribuição {
+.lista-importancia {
     width: 90%;
     margin: 20px 0 20px 80px;
     padding-left: 30px;
@@ -84,7 +84,7 @@ section {
     line-height: 1.8;
 }
 
-.lista-distribuição li {
+.lista-importancia li {
     text-align: left;
 }
 /* Lista distribuição*/
