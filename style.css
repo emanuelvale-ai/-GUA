@@ -78,7 +78,7 @@ section {
 .lista-distribuição {
     width: 80%;
     max-width: 700px;
-    margin: 20px 0;
+    margin: 20px 0 20px 30px;
     text-align: left;
     list-style-position: outside;
 }
