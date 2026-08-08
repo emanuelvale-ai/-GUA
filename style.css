@@ -88,6 +88,10 @@ section {
     text-align: left;
 }
 
+.lista-importancia li::marker {
+    color: #1e5fbf;
+}
+
 .lista-importancia li strong {
     color: #1e5fbf;
 }
@@ -106,8 +110,16 @@ section {
     text-align: left;
 }
 
+.lista-distribuição li::marker {
+    color: #1e5fbf;
+}
+
 .lista-distribuição li strong {
     color: #1e5fbf;
+}
+
+.negrito-normal {
+    color: #333;
 }
 
 /* Referências */
