@@ -86,6 +86,7 @@ section {
 
 .lista-importancia li {
     text-align: left;
+    width: auto;
 }
 
 .lista-importancia li::marker {
@@ -112,6 +113,7 @@ section {
 
 .lista-distribuição li {
     text-align: left;
+    width: auto;
 }
 
 .lista-distribuição li::marker {
