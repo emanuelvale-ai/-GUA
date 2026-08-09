@@ -96,6 +96,10 @@ section {
     color: #1e5fbf;
 }
 
+.lista-importancia li strong.negrito-normal {
+    color: #333 !important;
+}
+
 /* Lista distribuição*/
 .lista-distribuição {
     width: auto;
@@ -117,9 +121,9 @@ section {
 .lista-distribuição li strong {
     color: #1e5fbf;
 }
-
-.negrito-normal {
-    color: #333;
+/* Negrito preto*/
+.lista-distribuição li strong.negrito-normal {
+    color: #333 !important;
 }
 
 /* Referências */
